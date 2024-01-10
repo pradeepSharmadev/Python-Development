@@ -27,3 +27,4 @@ print(obj2.name)
 print(obj2.check())
 
 
+#inheritance    
