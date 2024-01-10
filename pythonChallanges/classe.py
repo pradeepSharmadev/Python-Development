@@ -8,9 +8,9 @@ class student:
         self.name = name # initialising variable
     
     def welcome(self):
-        mmss = f"{self.name}" #not visible outside method
+        mmss = f"{self.name} this only can access welcome method" #not visible outside method
         self.mms = f"welcome {self.name}" #acceseble anyware whithin class
-        return self.mms
+        return self.mms ,  mmss
     def check(self):
         return True
     
@@ -24,7 +24,6 @@ print("Know we are intracting with \n class based programming",obj.welcome())
 
 obj2 = student("Rahul")
 print(obj2.name)
-
 print(obj2.check())
 
 
