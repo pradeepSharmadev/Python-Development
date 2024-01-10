@@ -28,3 +28,4 @@ print(obj2.check())
 
 
 #inheritance    
+'''properties and method can be acceble in diffrent class and method'''
